@@ -3,7 +3,7 @@
 #include "10-binary_tree_depth.c"
 #include "9-binary_tree_height.c"
 /**
- * tree_perfect - checks leaves of a binary tree are same level.
+ * binary_leave_perfect - checks leaves of a binary tree are same level.
  * @tree: a pointer to the root node
  * @ht: the height of the tree
  * Return: 1 or 0
