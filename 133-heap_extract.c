@@ -1,10 +1,11 @@
 #include "binary_trees.h"
 #include "0-binary_tree_node.c"
+
 void recurse_extract(heap_t *tree);
 heap_t *max(heap_t *tree);
 
 /**
- * heap_to_sorted_array - Extracts the root node of a Max Binary Heap
+ * heap_extract - Extracts the root node of a Max Binary Heap
  * @root:a double pointer to the root node of heap
  * Return:the val stored in the root node
  */
