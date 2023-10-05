@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-
+#include "0-binary_tree_node.c"
 void recurse_extract(heap_t *tree);
 heap_t *max(heap_t *tree);
 
